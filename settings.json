@@ -1,0 +1,375 @@
+{
+    // "editor.fontFamily": "Ubuntu Mono",
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "python.condaPath": "x:\\xxx\\Anaconda3\\Scripts\\conda.exe",
+    "workbench.colorTheme": "Monokai",
+    "python.defaultInterpreterPath": "C:\\\\ProgramData\\\\Miniconda3\\\\python.exe",
+    "editor.wordWrap": "on",
+    "editor.rulers": [
+        80
+    ],
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+    "[cpp]": {
+        
+    },
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.site": "r",
+        "*.hello": "makefile",
+        "Makefile_params": "makefile",
+        "Makevars": "makefile",
+        "*.win": "makefile",
+        "*.linux": "makefile",
+        "Makefile_mpi": "makefile",
+        "*.tpl": "FortranFreeForm",
+        "*.nml": "FortranFreeForm",
+        "Renviron": "shellscript",
+        "Makeconf": "makefile",
+        "*.toml": "shellscript",
+        "DESCRIPTION": "r",
+        "NAMESPACE": "shellscript",
+        "sshd_config": "shellscript",
+        "*.rgb": "shellscript",
+        "*.csv": "csv",
+        "*.txt": "shellscript",
+        "hosts": "r",
+        "*.m": "matlab",
+        "assets": "javascript",
+        "hydro": "javascript",
+        "flowbasin": "shellscript",
+        "installr": "r",
+        "*.repo": "shellscript",
+        "ldpaths": "shellscript",
+        "environment": "shellscript",
+        "profile": "r",
+        "*.service": "shellscript",
+        "*.d": "r",
+        "*.svg": "drawio",
+        "*.opt": "powershell",
+        ".radian_profile": "r",
+        "*.R": "r",
+        "*.qmd": "quarto"
+    },
+    "explorer.confirmDelete": false,
+    "editor.fontLigatures": true,
+    
+    "files.insertFinalNewline": true,
+    "workbench.tree.indent": 24,
+    "julia.enableTelemetry": true,
+    "editor.lineHeight": 16,
+    "editor.suggestLineHeight": 15,
+    "editor.mouseWheelScrollSensitivity": 1.4,
+    "git.enableSmartCommit": true,
+    "editor.suggest.shareSuggestSelections": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",<>?", //"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "terminal.integrated.inheritEnv": false,
+    "workbench.iconTheme": "vscode-icons",
+    "julia.enableCrashReporter": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "explorer.confirmDragAndDrop": false,
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "editor.renderWhitespace": "all",
+    "julia.NumThreads": 6,
+    "git.autofetch": true,
+    "diffEditor.renderSideBySide": true,
+    "r.rterm.windows": "c:/ProgramData/Miniconda3/Scripts/radian.exe",
+    "gitlens.views.repositories.files.layout": "tree",
+    "search.showLineNumbers": true,
+    // Chars to align
+    "alignment.chars": {
+        ":": {
+            "spaceBefore": 1,
+            "spaceAfter": 1
+        },
+        "::": {
+            "spaceBefore": 0,
+            "spaceAfter": 0
+        },
+        "=": {
+            "spaceBefore": 1,
+            "spaceAfter": 1
+        },
+        "<-": {
+            "spaceBefore": 1,
+            "spaceAfter": 1
+        },
+        "===": {
+            "spaceBefore": 1,
+            "spaceAfter": 1
+        },
+        "==": {
+            "spaceBefore": 1,
+            "spaceAfter": 1
+        },
+        "=>": {
+            "spaceBefore": 1,
+            "spaceAfter": 1
+        },
+        "+=": {
+            "spaceBefore": 1,
+            "spaceAfter": 1
+        },
+        "-=": {
+            "spaceBefore": 1,
+            "spaceAfter": 1
+        },
+        "*=": {
+            "spaceBefore": 1,
+            "spaceAfter": 1
+        },
+        "/=": {
+            "spaceBefore": 1,
+            "spaceAfter": 1
+        },
+        "|": {
+            "spaceBefore": 1,
+            "spaceAfter": 1
+        }
+    },
+    "path-autocomplete.pathMappings": {
+        "/": "/",
+        ".": "${folder}",
+        "..": "${folder}/..",
+        "R": "${folder}/R",
+        "data-raw": "${folder}/data-raw",
+        "data": "${folder}/data",
+        "Figures": "${folder}/Figures",
+        "scripts": "${folder}/scripts",
+        "INPUT": "${folder}/INPUT",
+        "OUTPUT": "${folder}/OUTPUT"
+    },
+    "javascript.suggest.paths": false,
+    "typescript.suggest.paths": false,
+    "path-autocomplete.excludedItems": {
+
+        "**/{.git,.Rproj.user,node_modules}": {
+            "when": "**"
+        } // always ignore .git and node_modules folders
+    },
+    "files.defaultLanguage": "Java", //No
+    "markdown.marp.themes": [
+        // "E:/Research/phenology/PhenoAsync/interview/theme/kongdd.css",      
+        "./theme/kongdd.css", 
+        // "E:/Research/phenology/PhenoAsync/interview/theme/kongdd.css"
+    ],
+    "powershell.promptToUpdatePowerShell": false,
+    "git.confirmSync": false,
+    "[plaintext]": {
+    },
+    "r.rterm.option": [],
+    "r.bracketedPaste": true,
+    "r.rterm.linux": "/opt/miniconda3/envs/r-4.1/bin/radian2",
+    // "terminal.integrated.shell.linux": "/bin/zsh",
+    "files.eol": "\n",
+    "remote.SSH.configFile": "~/.ssh/config",
+    "julia.execution.codeInREPL": true,
+    "sync.gist": "17547bea24c04b334140df5c974dba13",
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ],
+    // "julia.NumThreads": 8,
+    "jupyter.sendSelectionToInteractiveWindow": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "sync.forceUpload": true,
+    "markdown.preview.lineHeight": 1.4,
+    "kite.showWelcomeNotificationOnStartup": false,
+    // "outline.showEvents": false,
+    // "outline.showFields": false,
+    // "outline.showObjects": false,
+    // "outline.showTypeParameters": false,
+    // "outline.showStrings": false,
+    // "outline.showProperties": false,
+    // "outline.showOperators": false,
+    // "outline.showNull": false,
+    // "outline.showNumbers": false,
+    // "outline.showNamespaces": false,
+    // "outline.showModules": false,
+    // "outline.showKeys": false,
+    // "outline.showInterfaces": false,
+    "outline.showVariables": false,
+    // "debug.inlineValues": true,
+    "remote.SSH.remotePlatform": {
+        "cug": "linux",
+        "ali": "linux",
+        "aliyun_beijing": "linux",
+        "phenofit": "linux",
+        "zhao": "linux",
+        "work": "linux",
+        "work2": "linux",
+        "cug2": "linux",
+        "tenxun": "linux",
+        "kong-dell": "windows"
+    },
+    "python.languageServer": "Pylance",
+    "workbench.startupEditor": "newUntitledFile",
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+    "python.showStartPage": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "/bin/zsh (migrated)": {
+            "path": "/bin/zsh",
+            "args": []
+        },
+        "Ubuntu-20.04 (WSL)": {
+            "path": "C:\\Windows\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu-20.04"
+            ]
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.allowForcePush": true,
+    "git.confirmForcePush": false,
+    "julia.symbolCacheDownload": true,
+    "[julia]": {
+        "editor.defaultFormatter": "julialang.language-julia"
+    },
+    "editor.minimap.enabled": false,
+    // "python.defaultInterpreterPath": "C:\\\\Users\\\\kongdd\\\\.conda\\\\envs\\\\qgis\\\\python.exe",
+    // "r.rpath.linux": "/opt/R/4.1.1/bin/R",
+    "jupyter.runStartupCommands": [
+        "%load_ext autoreload",
+        "%autoreload 2"
+    ],
+    "jupyter.askForKernelRestart": false,
+    "terminal.integrated.defaultProfile.linux": "zsh (migrated)",
+    "notebook.lineNumbers": "on",
+    "python.autoComplete.addBrackets": true,
+    "python.analysis.completeFunctionParens": true,
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.profiles.linux": {
+        "zsh (migrated)": {
+            "path": "zsh",
+            "args": []
+        }
+    },
+    "update.enableWindowsBackgroundUpdates": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "cmake.configureOnOpen": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.accessibilitySupport": "off",
+    "grammarly.showExamples": true,
+    "grammarly.hideUnavailablePremiumAlerts": true,
+    "r.plot.useHttpgd": true,
+    "bracketPairColorizer.depreciation-notice": false,
+    "editor.tabSize": 2,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "output.smartScroll.enabled": false,
+    "interactiveWindow.collapseCellInputCode": "never",
+    // "jupyter.alwaysScrollOnNewCell": true,
+    "resmongraphical.battery.show": false,
+    "resmongraphical.mem.color": "green",
+    "resmongraphical.mem.style": "HorizontalMeter",
+    "vscode-office.openOutline": true,
+    "settingsSync.ignoredSettings": [
+        "r.rterm.windows",
+        "julia.additionalArgs"
+    ],
+    "julia.executablePath": "C:/Users/hydro/AppData/Local/Programs/Julia-1.7.3/bin/julia.exe",
+    "[markdown]": {
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "evermonkey.token": "S=s54:U=a56947:E=181db4118b3:C=181b7349308:P=1cd:A=en-devtoken:V=2:H=72a94a5884a33f7c04f22383be9e6e58",
+    "evermonkey.noteStoreUrl": "https://app.yinxiang.com/shard/s54/notestore",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "r.rmarkdown.knit.defaults.knitWorkingDirectory": "workspace root",
+    
+    "files.exclude": {
+        "**/*.html": true,
+        ".Rproj.user": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/tmp": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/dist": true
+    },
+    "files.watcherExclude": {
+        "*.html": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/tmp/**": true,
+        "**/bower_components/**": true,
+        "**/dist/**": true
+    },
+    "search.followSymlinks": false,
+    "gitlens.codeLens.enabled": false,
+    "window.commandCenter": true,
+    "julia.useCustomSysimage": true,
+    "julia.additionalArgs": [
+        "--sysimage",
+        "/opt/julia/libIpaper.so"
+    ],
+    "quarto.mathjax.theme": "dark",
+    "problems.decorations.enabled": false,
+    "problems.autoReveal": false,
+    "outline.problems.enabled": false,
+    "r.lsp.diagnostics": false,
+    "code-runner.executorMap": {
+        "ncl":"wsl ncl $fileName",
+        // "ncl": "ncl",//这两个都可以
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "code-runner.clearPreviousOutput": true,
+    "markdown.marp.enableHtml": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "zenMode.hideActivityBar": false,
+    "[quarto]": {
+        "editor.snippetSuggestions": "top"
+    },
+    "editor.snippetSuggestions": "top",
+    "quarto.render.renderOnSave": true,
+    "MarkdownPaste.path": "images/${fileBasenameNoExtension}",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "julia.additionalArgs": [
+    //     "--sysimage",
+    //     "/opt/julia/libIpaper-v0.1.4.so"
+    // ],
+}

@@ -1,0 +1,36 @@
+[
+  // * git
+  {
+    "key": "ctrl+g ctrl+f",
+    "command": "git.pushForce"
+  },
+  {
+    "key": "ctrl+g ctrl+p",
+    "command": "git.push"
+  },
+  {
+    "key": "ctrl+g ctrl+a",
+    "command": "git.commitAllAmend"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "openInSublimeMerge.open"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "vscsm.openInSublimeMerge"
+  },
+
+  {
+    "key": "ctrl+l g",
+    "command": "-extension.openInGitHub"
+  },
+  {
+    "key": "ctrl+l p",
+    "command": "-extension.openPrGitProvider"
+  },
+  {
+    "key": "ctrl+l c",
+    "command": "-extension.copyGitHubLinkToClipboard"
+  }
+]

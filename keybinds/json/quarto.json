@@ -1,0 +1,41 @@
+[
+  {
+    "key": "ctrl+r",
+    "command": "quarto.runSelection",
+    "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "-quarto.runSelection",
+    "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "quarto.runCurrentCell"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "-quarto.runCurrentCell",
+    "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "quarto.runCellsAbove",
+    "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+  },
+  {
+    "key": "ctrl+shift+alt+p",
+    "command": "-quarto.runCellsAbove",
+    "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'quarto'"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "quarto.renderHTML",
+    "when": "editorLangId == 'qmd' "
+  },
+  {
+    // !del
+    "key": "ctrl+shift+i",
+    "command": "-quarto.insertCodeCell"
+  }
+]

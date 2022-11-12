@@ -1,0 +1,74 @@
+[
+  // markdown
+  {
+    "key": "ctrl+shift+u",
+    "command": "markdown.extension.toc.addSecNumbers"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "markdown.extension.editing._wrapBy",
+    "when": "editorLangId == 'rmd' || editorLangId == 'qmd' || editorLangId == 'markdown'",
+    "args": {
+      "before": "**",
+      "after": "**"
+    }
+  },
+  {
+    "key": "ctrl+i",
+    "command": "markdown.extension.editing._wrapBy",
+    "when": "editorLangId == 'rmd' || editorLangId == 'qmd' || editorLangId == 'markdown'",
+    "args": {
+      "before": "*",
+      "after": "*"
+    }
+  },
+  {
+    "key": "ctrl+e",
+    "command": "markdown.extension.editing._wrapBy",
+    "when": "editorLangId == 'rmd' || editorLangId == 'qmd' || editorLangId == 'markdown'",
+    "args": {
+      // "before": "<div align=center>",
+      // "after": "</div>"
+      "before": "<center>",
+      "after": "</center>"
+    }
+  },
+  {
+    "key": "shift+4",
+    "command": "markdown.extension.editing._wrapBy",
+    "when": "editorLangId == 'rmd' || editorLangId == 'qmd' || editorLangId == 'markdown'",
+    "args": {
+      // "before": "<div align=center>",
+      // "after": "</div>"
+      "before": "$",
+      "after": "$"
+    }
+  },
+  {
+    "key": "ctrl+u",
+    "command": "markdown.extension.editing._wrapBy",
+    "when": "editorLangId == 'rmd' || editorLangId == 'qmd' || editorLangId == 'markdown'",
+    "args": {
+      "before": "<u>",
+      "after": "</u>"
+    }
+  },
+  {
+    "key": "alt+r",
+    "command": "markdown.extension.editing._wrapBy",
+    "when": "editorLangId == 'rmd' || editorLangId == 'qmd' || editorLangId == 'markdown'",
+    "args": {
+      "before": "<span style='color:red'>",
+      "after": "</span>"
+    }
+  },
+  {
+    "key": "alt+y",
+    "command": "markdown.extension.editing._wrapBy",
+    "when": "editorLangId == 'rmd' || editorLangId == 'qmd' || editorLangId == 'markdown'",
+    "args": {
+      "before": "<span style='background-color:yellow'>",
+      "after": "</span>"
+    }
+  }
+]

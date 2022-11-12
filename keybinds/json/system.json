@@ -1,0 +1,146 @@
+[
+  // {
+  //   "key": "ctrl+.",
+  //   "command": "workbench.action.showCommands"
+  // },
+  {
+    "key": "f12",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f9",
+    "command": "editor.action.revealDeclaration"
+  },
+  {
+    "key": "f9",
+    "command": "editor.action.goToDeclaration"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.goToDeclaration"
+  },
+
+  {
+    "key": "shift+delete",
+    "command": "editor.action.deleteLines",
+    "when": "editorFocus"
+  },
+
+  // * sublime
+  {
+    "key": "ctrl+k ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+
+  // * 系统快捷键的设置
+
+  // ? goto line
+  {
+    "key": "alt+g",
+    "command": "workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.action.gotoLine"
+  },
+
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "revealFileInOS",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "alt+d",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+u",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    // 新建文件
+    "key": "ctrl+n",
+    "command": "extension.simpleNewFile"
+  },
+  {
+    // !del
+    "key": "ctrl+alt+n",
+    "command": "-extension.simpleNewFile"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "alignment.align",
+    "when": "editorHasSelection"
+  },
+  {
+    // !del
+    "key": "alt+oem_plus",
+    "command": "-alignment.align",
+    "when": "editorHasSelection"
+  },
+  {
+    // !del
+    "key": "ctrl+shift+i",
+    "command": "-emojisense.quickEmojitext",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "workbench.action.terminal.copySelection",
+    "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected"
+  },
+  {
+    // !del
+    "key": "ctrl+shift+c",
+    "command": "-workbench.action.terminal.copySelection",
+    "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "workbench.action.terminal.paste",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    // !del
+    "key": "ctrl+shift+v",
+    "command": "-workbench.action.terminal.paste",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "extension.open",
+    "when": "!editorTextFocus"
+  },
+  {
+    // !del
+    "key": "ctrl+alt+o",
+    "command": "-extension.open"
+  }
+]

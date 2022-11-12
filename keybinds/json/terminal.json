@@ -1,0 +1,38 @@
+[
+  // 01 向terminal传递命令
+  {
+    "description": "R-terminal %>%",
+    "key": "ctrl+shift+m",
+    "command": "workbench.action.terminal.sendSequence",
+    "when": "terminalFocus",
+    // && (editorLangId == 'rmd' || editorLangId == 'r')
+    "args": { "text": "%>% " }
+  },
+  {
+    "description": "R-terminal %<>%",
+    "key": "ctrl+shift+,",
+    "command": "workbench.action.terminal.sendSequence",
+    "when": "terminalFocus",
+    "args": { "text": "%<>% " }
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.terminal.sendSequence",
+    // "command": "editor.action.insertSnippet",
+    // editorLangId == 'rmd' || editorLangId == 'r' ||
+    "when": "terminalFocus",
+    "args": {
+      "text": "%in% "
+    }
+  }
+  // {
+  //     "description": "Julia-terminal |>",
+  //     "key": "ctrl+shift+m",
+  //     "command": "workbench.action.terminal.sendSequence",
+  //     "when": "terminalFocus", //  && (editorLangId == 'Julia')
+  //     // "when": "terminalFocus && (editorLangId == 'Julia')", //
+  //     "args": {
+  //         "text": "|> "
+  //     }
+  // },
+]

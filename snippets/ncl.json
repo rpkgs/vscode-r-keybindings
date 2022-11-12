@@ -1,0 +1,61 @@
+{
+	// Place your snippets for ncl here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"function definition": {
+		"prefix": "function",
+		"body": [
+			"undef(\"$1\")",
+			"function $1()",
+			"begin",
+			"$2",
+			"end"
+		], 
+		"description": "function definition"
+	}, 
+	"procedure definition": {
+		"prefix": "procedure",
+		"body": [
+			"undef(\"$1\")",
+			"procedure $1()",
+			"begin",
+			"$2",
+			"end"
+		], 
+		"description": "function definition"
+	}, 
+	"array": {
+		"prefix": "array",
+		"body": ["(/$1, /)"], 
+	}, 
+	"list": {
+		"prefix": "list",
+		"body": ["[/$1, /]"], 
+	}, 
+	">=": {
+		"prefix": ".gte.",
+		"body": [".gte."], 
+	}, 
+	"<=": {
+		"prefix": ".lte.",
+		"body": [".lte."], 
+	}, 
+	">": {
+		"prefix": ".gt.",
+		"body": [".gt."], 
+	}, 
+	"<": {
+		"prefix": ".lt.",
+		"body": [".lt."], 
+	}, 
+}
